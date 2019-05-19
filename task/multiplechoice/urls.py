@@ -19,6 +19,6 @@ from .views import *
 
 
 urlpatterns = [
-  path('addtrackquestion', add_track_question),
+  path('fibonacci', add_track_question),
   re_path(r'^fibonacciseries/$', fibonacci_series)
 ]
